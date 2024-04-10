@@ -1,0 +1,4 @@
+fastprogress
+scipy
+deoldify
+flask

@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  old-photos:
+    image: old-photos:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: old-photos
+    restart: always
+    ports:    # 指定端口映射
+      - "5000:5000"
